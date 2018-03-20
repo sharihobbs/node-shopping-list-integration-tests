@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: g+PwuNV+OJBdQ7buQNETLyYwQCkz/5mrC1rUUxef8MMneW1jokijpSAE+hJFd+0/rzuwC8fCkZk0P3FQfg+YNpjLsNguaPGpW0JxUPC0jQEka25xn5rgInCDDvu1T6Gz1NeK8GYF1xgajK5w3oJhVvy4C5QHP/rOYRJkwfyHLDr2Lg2Xd2L1mo8EZ/cYYJ2NMpC/BPm09Tpz//95wualiv51XKvwqzql4K4o3YmRcHKRjWerOU5wuA2xmURZYVOIJH9JuW8gJVed2lxercOJ0ctq9n8kviRsPARAvwY2sZiO251I935WWx5ajrstZAJRP7wTear5dCl8F7PsHPkjfhrLbr6a1IGdtZcHi0EzshRdACIzYAezq/qUshfKDq3omQMoZLNjTwxlyycmXnly3JeU8VuKRO+/TpS9En5TkYyYHUaXpZf/yB1gMypqmqhbFbX6wpzk08alr8ikWx/WEBB18yH+JxxA9+chVbOCqL3OhZz7EyYX9BoaNftP0oelQHF2hsLKU+X8/8WbJpE5SXw3xFBLh9H4UTzyQin/m4AfNGOKvZB/GOcVQLOg3ZPxAOCWdhvA0IN8zsk7+I8JTkAnCnxHKd28X/CknwtBGvX+51Pcn5o2QMLerf0nf561gzIX3fLUvtLQH5aVEuYC4NDUBa+IoMSJtJLFOpuKv/A=
+  app: calm-castle-75969
+  on:
+    repo: sharihobbs/node-shopping-list-integration-tests
