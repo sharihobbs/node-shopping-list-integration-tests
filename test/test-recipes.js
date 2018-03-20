@@ -34,6 +34,7 @@ describe('Recipes', function() {
       });
   });
 
+<<<<<<< HEAD
   it('should add a recipe on POST', function() {
     const newRecipe = {
       name: 'scrambled eggs', ingredients: ['eggs', 'water', 'salt']};
@@ -69,7 +70,6 @@ describe('Recipes', function() {
       })
 
       .then(function(res) {
-
         expect(res).to.have.status(204);
       });
   });
@@ -83,7 +83,6 @@ describe('Recipes', function() {
           .delete(`/recipes/${res.body[0].id}`);
       })
       .then(function(res) {
-
         expect(res).to.have.status(204);
       });
   });
