@@ -34,7 +34,6 @@ describe('Recipes', function() {
       });
   });
 
-<<<<<<< HEAD
   it('should add a recipe on POST', function() {
     const newRecipe = {
       name: 'scrambled eggs', ingredients: ['eggs', 'water', 'salt']};
